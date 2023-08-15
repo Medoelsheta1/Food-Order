@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 5px;
+}
+.form input {
+    width: 50%;
+    height: 25px;
+    border-radius: 4px;
+    padding-left: 6px;
+    border: 1px solid rgba(165, 164, 164, 0.836);
+}
+.form button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    color: white;
+    outline: none;
+    border: none;
+}
+.warningMsg {
+    color: #8a2b06 ;
+    margin: 0;
+    padding: 0;
+}
+.form label {
+    font-weight: bold;
+    padding-left: 2.5px;
+}
+
+.notValid {
+    background-color: rgba(250, 92, 92, 0.425);
+}
+
+.buttons {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.close-button,
+.order-button,
+.confirm-button {
+    padding: 10px 25px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #8a2b06;
+    border: 2px solid #8a2b06;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.close-button:hover,
+.order-button:hover,
+.confirm-button:hover {
+    background-color: #8a2b06;
+    color: white;
+
+}

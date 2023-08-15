@@ -1,0 +1,29 @@
+.form button {
+    padding: 0.5rem 1.25rem;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #8a2b06;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.form label {
+    font-weight: bold;
+    /* margin-right: 40px; */
+
+}
+.form > div > input {
+    width: 35px;
+    margin-left: 20px;
+}
+.form > div {
+    padding-right: 20px;
+}
+@media (max-width: 767px) {
+    .form button {
+        padding: 0.5rem;
+    }
+}

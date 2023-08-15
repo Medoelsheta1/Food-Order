@@ -1,0 +1,45 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #c93b03;
+}
+.details h4 {
+    margin: 0;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 17.5px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.price span {
+    color: #c93b03;
+    font-weight: 600;
+    font-size: 18px;
+}
+.price h6 {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #EEE;
+    margin: 15px;
+}
+.buttons button {
+    margin: 8px;
+    padding: 7px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #c93b03;
+    border: none;
+} 
+.buttons button:hover {
+    color: #c93b03;
+    background-color: white;
+    border: #c93b03 1px solid;
+}

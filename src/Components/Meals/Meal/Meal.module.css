@@ -1,0 +1,31 @@
+.item p {
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.item {
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 10px;
+
+}
+.li {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item h3 {
+    margin-bottom: 0;
+}
+
+.item span {
+    color: #8a2b06;
+    font-weight: bold;
+    font-size: 18px;
+}
+@media (max-width: 767px) {
+    .item p {
+        width: 250px;
+
+    }
+}
