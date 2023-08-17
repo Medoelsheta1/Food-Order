@@ -26,7 +26,7 @@ function Cart (props) {
             method: "POST",
             body: JSON.stringify({
                 information: userData,
-                order: CartCtx.items
+                order: CartCtx.items    
         })})
         setDidSubmit(true)
         setIsSubmitting(false)
@@ -42,7 +42,7 @@ function Cart (props) {
                         <span className={styles['total-text']}>Total numbers</span>
                         <span className={styles['total-price']}>${CartCtx.totalprice.toFixed(2)}</span>
                     </div>
-                    {viewForm && <CartForm onConfirm={orderDataHandler} />}
+                    {viewForm && <CartForm onConfirm={orderDataHandler} onClick={props.onClick} />}
                     <div className={styles.actions}>
                         {!viewForm && <button onClick={props.onClick} className={styles['close-button']}>close</button> }
                         {dataFound && !viewForm && <button className={styles['order-button']} onClick={viewFormHandler} >order</button>}
