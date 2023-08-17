@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Food-Order/static/css/main.50e8e5f8.css",
-    "main.js": "/Food-Order/static/js/main.2c013a3d.js",
+    "main.css": "/Food-Order/static/css/main.00e049a3.css",
+    "main.js": "/Food-Order/static/js/main.60af56d7.js",
     "static/js/787.9da6907c.chunk.js": "/Food-Order/static/js/787.9da6907c.chunk.js",
     "static/media/pexels-malidate-van-769289 (1).jpg": "/Food-Order/static/media/pexels-malidate-van-769289 (1).94ae9dea2375a1817586.jpg",
     "index.html": "/Food-Order/index.html",
-    "main.50e8e5f8.css.map": "/Food-Order/static/css/main.50e8e5f8.css.map",
-    "main.2c013a3d.js.map": "/Food-Order/static/js/main.2c013a3d.js.map",
+    "main.00e049a3.css.map": "/Food-Order/static/css/main.00e049a3.css.map",
+    "main.60af56d7.js.map": "/Food-Order/static/js/main.60af56d7.js.map",
     "787.9da6907c.chunk.js.map": "/Food-Order/static/js/787.9da6907c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50e8e5f8.css",
-    "static/js/main.2c013a3d.js"
+    "static/css/main.00e049a3.css",
+    "static/js/main.60af56d7.js"
   ]
 }
