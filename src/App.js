@@ -16,13 +16,10 @@ function App() {
     <CartProvider>
       <div className="App">
         <div className='content'>
-
           <Header onClick={visibleTheCart}/>
           { visible ? <Cart onClick={invisibleTheCart}/> : null}
-          
           <Meals />        
         </div>
-
       </div>      
     </CartProvider>
     

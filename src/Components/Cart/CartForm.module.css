@@ -35,6 +35,10 @@
 .buttons {
     text-align: right;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row
 }
 
 .close-button,

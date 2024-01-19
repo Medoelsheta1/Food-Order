@@ -2,3 +2,12 @@
     background-color: #383838de;
     min-height: 130vh;
 }
+ul {
+    padding: 15px;
+}
+form > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
